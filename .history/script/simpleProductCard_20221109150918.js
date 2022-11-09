@@ -12,8 +12,9 @@ function innerDetailProduct() {
       const productName = document.querySelectorAll(
         ".product-category-heading"
       );
-      // const productName = e.target.textContent;
-      console.log(productName);
+      for (let i = 0; i < productName.length; i++) {
+        console.log(productName.textContent);
+      }
       const template = `
         <div class="modal">
         <div class="modal-overlay"></div>

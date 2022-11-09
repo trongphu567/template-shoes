@@ -533,10 +533,8 @@ function innerProductPage() {
                   alt=""
                   class="product-category-image"
                 />
-              <div class="product-category-info">
                 <h3 class="product-category-heading">Giày Adidas Ultraboost DNA SEA CITY PACK THAILAND</h3>
                 <span class="product-category-price">3.900.000</span>
-              </div>
             </div>
 
             <div class="product-category-item">
@@ -545,10 +543,8 @@ function innerProductPage() {
                   alt=""
                   class="product-category-image"
                 />
-              <div class="product-category-info">
                 <h3 class="product-category-heading">Giày X9000L4</h3>
                 <span class="product-category-price">3.900.000</span>
-              </div>
             </div>
 
             <div class="product-category-item">
@@ -557,10 +553,8 @@ function innerProductPage() {
                   alt=""
                   class="product-category-image"
                 />
-              <div class="product-category-info">
                 <h3 class="product-category-heading">
                     Nike Air Force 1 07 LV8
-                </h3>
                 <span class="product-category-price">3.900.000</span>
               </div>
             </div>
@@ -571,10 +565,8 @@ function innerProductPage() {
                   alt=""
                   class="product-category-image"
                 />
-              <div class="product-category-info">
                 <h3 class="product-category-heading">
                     Nike Air Force 1 07 LV8
-                </h3>
                 <span class="product-category-price">3.900.000</span>
               </div>
             </div>
@@ -585,10 +577,8 @@ function innerProductPage() {
                   alt=""
                   class="product-category-image"
                 />
-              <div class="product-category-info">
                 <h3 class="product-category-heading">
                     Nike Air Force 1 07 LV8
-                </h3>
                 <span class="product-category-price">3.900.000</span>
               </div>
             </div>
@@ -599,10 +589,8 @@ function innerProductPage() {
                   alt=""
                   class="product-category-image"
                 />
-              <div class="product-category-info">
                 <h3 class="product-category-heading">
                     Nike Air Force 1 07 LV8
-                </h3>
                 <span class="product-category-price">3.900.000</span>
               </div>
             </div>
@@ -613,10 +601,8 @@ function innerProductPage() {
                   alt=""
                   class="product-category-image"
                 />
-              <div class="product-category-info">
                 <h3 class="product-category-heading">
                     Nike Air Force 1 07 LV8
-                </h3>
                 <span class="product-category-price">3.900.000</span>
               </div>
             </div>
@@ -627,10 +613,8 @@ function innerProductPage() {
                   alt=""
                   class="product-category-image"
                 />
-              <div class="product-category-info">
                 <h3 class="product-category-heading">
                     Nike Air Force 1 07 LV8
-                </h3>
                 <span class="product-category-price">3.900.000</span>
               </div>
             </div>
@@ -641,10 +625,8 @@ function innerProductPage() {
                   alt=""
                   class="product-category-image"
                 />
-              <div class="product-category-info">
                 <h3 class="product-category-heading">
                     Nike Air Force 1 07 LV8
-                </h3>
                 <span class="product-category-price">3.900.000</span>
               </div>
             </div>

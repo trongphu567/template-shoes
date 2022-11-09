@@ -20,7 +20,6 @@
     position: relative;
     z-index: 10;
     padding: 1rem;
-    // box-shadow: 0 0 10px $gray-dark-color;
   }
   &-close {
     position: absolute;
@@ -43,11 +42,12 @@
     display: flex;
     align-items: stretch;
     justify-content: space-between;
+    box-shadow: 0 0 10px $gray-dark-color;
   }
   &-image {
     object-fit: cover;
     width: 100%;
-    height: 47.5rem;
+    height: 100%;
     padding: 2rem;
     overflow: hidden;
   }

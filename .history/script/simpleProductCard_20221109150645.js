@@ -9,11 +9,11 @@ function innerDetailProduct() {
     item.addEventListener("click", function (e) {
       // console.log(e.target);
       const image = e.target.getAttribute("src");
-      const productName = document.querySelectorAll(
-        ".product-category-heading"
-      );
-      // const productName = e.target.textContent;
-      console.log(productName);
+      const productName = document.querySelector(".product-category-heading");
+      productName.forEach(item) {
+        console.log(productName.innerText)
+
+      }
       const template = `
         <div class="modal">
         <div class="modal-overlay"></div>

@@ -9,7 +9,7 @@
   &-overlay {
     position: absolute;
     inset: 0;
-    background: rgba($color: #000000, $alpha: 0.5);
+    background-color: rgba(255, 255, 255, 0.106);
     cursor: pointer;
   }
   &-content {
@@ -20,7 +20,7 @@
     position: relative;
     z-index: 10;
     padding: 1rem;
-    // box-shadow: 0 0 10px $gray-dark-color;
+    box-shadow: 0 0 10px $gray-dark-color;
   }
   &-close {
     position: absolute;
@@ -47,7 +47,7 @@
   &-image {
     object-fit: cover;
     width: 100%;
-    height: 47.5rem;
+    height: 100%;
     padding: 2rem;
     overflow: hidden;
   }

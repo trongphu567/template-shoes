@@ -9,11 +9,6 @@ function innerDetailProduct() {
     item.addEventListener("click", function (e) {
       // console.log(e.target);
       const image = e.target.getAttribute("src");
-      const productName = document.querySelectorAll(
-        ".product-category-heading"
-      );
-      // const productName = e.target.textContent;
-      console.log(productName);
       const template = `
         <div class="modal">
         <div class="modal-overlay"></div>
@@ -22,9 +17,9 @@ function innerDetailProduct() {
             <i class="fa-solid fa-xmark modal-xmark"></i>
           </span>
           <div class="modal-main">
-            <img src="${image}" alt="" class="modal-image" />
+            <img src="./images/shoes-1.png" alt="" class="modal-image" />
             <div class="modal-content">
-              <span class="modal-title">${productName}</span>
+              <span class="modal-title">GIÀY Ultraboost 4.0 DNA</span>
               <span class="modal-price">4.500.000₫</span>
         
               <div class="modal-form">

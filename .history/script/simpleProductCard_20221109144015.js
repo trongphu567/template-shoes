@@ -9,10 +9,7 @@ function innerDetailProduct() {
     item.addEventListener("click", function (e) {
       // console.log(e.target);
       const image = e.target.getAttribute("src");
-      const productName = document.querySelectorAll(
-        ".product-category-heading"
-      );
-      // const productName = e.target.textContent;
+      const productName = e.target.textContent;
       console.log(productName);
       const template = `
         <div class="modal">
