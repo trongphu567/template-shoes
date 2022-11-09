@@ -4,7 +4,6 @@ function innerDetailProduct() {
   const productCategoryItem = document.querySelectorAll(
     ".product-category-item"
   );
-
   productCategoryItem.forEach((item) =>
     item.addEventListener("click", function (e) {
       // console.log(e.target);
@@ -13,7 +12,20 @@ function innerDetailProduct() {
         <div class="modal-overlay"></div>
         <div class="modal-content">
           <span class="modal-close">
-            <i class="fa-solid fa-xmark modal-xmark"></i>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+              class="icon-close"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
           </span>
           <div class="modal-main">
             <img src="./images/shoes-1.png" alt="" class="modal-image" />
@@ -69,9 +81,9 @@ function innerDetailProduct() {
   );
 
   productSingle.addEventListener("click", function (e) {
-    if (e.target.matches(".modal-xmark")) {
+    if (e.target.matches(".icon-close")) {
       // console.log(e.target);
-      const modal = e.target.parentNode.parentNode.parentNode;
+      const modal = event.target.parentNode.parentNode.parentNode;
       modal.parentNode.removeChild(modal);
     }
   });

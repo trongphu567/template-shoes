@@ -4,7 +4,6 @@ function innerDetailProduct() {
   const productCategoryItem = document.querySelectorAll(
     ".product-category-item"
   );
-
   productCategoryItem.forEach((item) =>
     item.addEventListener("click", function (e) {
       // console.log(e.target);
@@ -73,6 +72,9 @@ function innerDetailProduct() {
       // console.log(e.target);
       const modal = e.target.parentNode.parentNode.parentNode;
       modal.parentNode.removeChild(modal);
+    } else if (e.target.matches(".modal-overlay")) {
+      console.log(e.target);
+      e.target.parentNode.parentNode.removeChild(e.target);
     }
   });
 }

@@ -4,7 +4,6 @@ function innerDetailProduct() {
   const productCategoryItem = document.querySelectorAll(
     ".product-category-item"
   );
-
   productCategoryItem.forEach((item) =>
     item.addEventListener("click", function (e) {
       // console.log(e.target);
@@ -71,7 +70,7 @@ function innerDetailProduct() {
   productSingle.addEventListener("click", function (e) {
     if (e.target.matches(".modal-xmark")) {
       // console.log(e.target);
-      const modal = e.target.parentNode.parentNode.parentNode;
+      const modal = event.target.parentNode.parentNode.parentNode;
       modal.parentNode.removeChild(modal);
     }
   });

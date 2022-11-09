@@ -20,7 +20,7 @@
     border-radius: 12px;
     position: relative;
     z-index: 10;
-    padding: 1rem;
+    padding: 2rem;
   }
   &-close {
     position: absolute;
@@ -34,9 +34,6 @@
     background-color: #eee;
     padding: 5px;
     transform: translate(50%, -50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   &-main {
     overscroll-behavior-y: contain;
@@ -122,8 +119,7 @@
     font-size: 1.4rem;
     color: $title-color;
   }
-  &-xmark {
-    font-size: 20px;
-    padding: 5px;
-  }
+}
+.icon-close {
+  padding: 1rem;
 }
