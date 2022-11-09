@@ -142,23 +142,15 @@ function innerIntroducePage() {
     <div class="container">
       <h2 class="introduce-top">Giới thiệu</h2>
       <p class="introduce-bottom">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-        et soluta accusamus, assumenda, amet nihil, consectetur doloremque
-        nesciunt quas consequatur perspiciatis veritatis similique iure! Nam
-        repudiandae amet blanditiis porro dolor? Lorem ipsum, dolor sit amet
-        consectetur adipisicing elit. Recusandae assumenda, soluta amet
-        voluptas corporis praesentium! Deserunt id, quos ex assumenda, esse
-        debitis eveniet quisquam perferendis, doloribus iusto
-        necessitatibus. Assumenda, beatae.
+        Giày dép là một phụ kiện không thể thiếu đối với phong cách thời trang của mỗi người. 
+        Chính vì thế NIKE SHOES muốn đem lại những mẫu giày mới nhất, giá tốt nhất và được 
+        cập nhật thường xuyên để giúp các bạn dễ dàng hơn trong việc lựa chọn
+        những style thịnh hành của thời trang trong nước và thế giới.
       </p>
       <p class="introduce-bottom">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-        et soluta accusamus, assumenda, amet nihil, consectetur doloremque
-        nesciunt quas consequatur perspiciatis veritatis similique iure! Nam
-        repudiandae amet blanditiis porro dolor? Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Delectus libero, ipsa labore
-        voluptatum dolor velit laborum, rem a saepe iusto ab? Mollitia fuga
-        harum maiores repellendus hic esse sapiente laboriosam.
+        NIKE SHOES hân hạnh được phục vụ quý khách thông qua việc bán tại cửa hàng
+        tại địa chỉ 266 Đội Cấn, Phường Liễu Giai, Quận Ba Đình, TP Hà Nội 
+        và đặt hàng online trên website với nhiều ưu đãi
       </p>
     </div>
   </section>
